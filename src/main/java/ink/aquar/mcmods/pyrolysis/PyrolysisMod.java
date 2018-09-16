@@ -43,6 +43,7 @@ public class PyrolysisMod {
 
     }
 
+    @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event) {
         long startTime = System.currentTimeMillis();
 
