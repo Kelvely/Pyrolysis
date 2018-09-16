@@ -16,8 +16,8 @@ public class PyrolysisMod {
 
     private static Logger logger;
 
+    @Mod.Instance
     private static PyrolysisMod instance;
-    { instance = this; }
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
